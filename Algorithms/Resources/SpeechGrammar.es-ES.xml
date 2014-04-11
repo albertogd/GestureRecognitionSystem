@@ -1,0 +1,104 @@
+﻿<grammar version="1.0" xml:lang="es-ES" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>EXIT</tag>
+        <one-of>
+          <item> salir </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CLOSE SESSION</tag>
+        <one-of>
+          <item> cerrar sesion </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CONFIGURATION</tag>
+        <one-of>
+          <item> configuracion </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ROBOT CONTROLLER</tag>
+        <one-of>
+          <item> teleoperar </item>
+          <item> robot </item>
+          <item> teleoperar robot </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>GO FORWARD</tag>
+        <one-of>
+          <item> ir recto </item>
+          <item> adelante </item>
+          <item> adelantar ambos pies </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>GO BACKWARD</tag>
+        <one-of>
+          <item> atrás </item>
+          <item> ir atrás </item>
+          <item> retroceder </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TURN LEFT</tag>
+        <one-of>
+          <item> girar a la izquierda </item>
+          <item> adelantar pie izquierdo </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TURN RIGHT</tag>
+        <one-of>
+          <item> girar a la derecha </item>
+          <item> adelantar pie derecho </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT ARM UP</tag>
+        <one-of>
+          <item> brazo derecho arriba </item>
+          <item> levantar brazo derecho </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT ARM DOWN</tag>
+        <one-of>
+          <item> brazo derecho abajo </item>
+          <item> bajar brazo derecho </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LEFT ARM UP</tag>
+        <one-of>
+          <item> brazo izquierdo arriba </item>
+          <item> levantar brazo izquierdo arriba </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LEFT ARM DOWN</tag>
+        <one-of>
+          <item> brazo izquierdo abajo </item>
+          <item> bajar brazo izquierdo </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BOTH ARMS UP</tag>
+        <one-of>
+          <item> ambos brazos arriba </item>
+          <item> levantar ambos brazos </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BOTH ARMS DOWN</tag>
+        <one-of>
+          <item> ambos brazos abajo </item>
+          <item> bajar ambos brazos </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,99 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>EXIT</tag>
+        <one-of>
+          <item> exit </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CLOSE SESSION</tag>
+        <one-of>
+          <item> close session </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CONFIGURATION</tag>
+        <one-of>
+          <item> configuration </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ROBOT CONTROLLER</tag>
+        <one-of>
+          <item> control </item>
+          <item> robot </item>
+          <item> control robot </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>GO FORWARD</tag>
+        <one-of>
+          <item> forward </item>
+          <item> go forward </item>
+          <item> go straight </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>GO BACKWARD</tag>
+        <one-of>
+          <item> backward </item>
+          <item> go backward </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TURN LEFT</tag>
+        <one-of>
+          <item> turn left </item>
+          <item> move left </item>
+          <item> left foot forward </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TURN RIGHT</tag>
+        <one-of>
+          <item> turn right </item>
+          <item> move right </item>
+          <item> right foot forward </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT ARM UP</tag>
+        <one-of>
+          <item> right arm up </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT ARM DOWN</tag>
+        <one-of>
+          <item> right arm down </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LEFT ARM UP</tag>
+        <one-of>
+          <item> left arm up </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LEFT ARM DOWN</tag>
+        <one-of>
+          <item> left arm down </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BOTH ARMS UP</tag>
+        <one-of>
+          <item> both arms up </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BOTH ARMS DOWN</tag>
+        <one-of>
+          <item> both arms down </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
