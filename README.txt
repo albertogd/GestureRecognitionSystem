@@ -1,6 +1,6 @@
 ﻿This project is part of my master thesis called "Desarrollo y evaluación de un sistema de teleoperación de robots basado en reconocimiento de gestos usando el sensor Kinect".
 
-The code is released under MIT License, which guarantees end users (individuals, organizations, companies) the freedoms to use, study, share (copy), and modify the software. If you use this software, please keep a reference you have used this code.
+The code is released under MIT License ( http://opensource.org/licenses/MIT ). If you use this software, please keep a reference you have used this code.
 
 This project has been possible thanks to INAPRA Project.
 
