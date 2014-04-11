@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- MainWindow -->
+    <system:String x:Key="exit">Exit</system:String>
+    <system:String x:Key="logoff">Logoff</system:String>
+    <system:String x:Key="createAccount">Create Account</system:String>
+    <system:String x:Key="user">User</system:String>
+    <system:String x:Key="password">Password</system:String>
+    <system:String x:Key="login">Login</system:String>
+    <system:String x:Key="Language">Language</system:String>
+
+    <!-- HomePage -->
+    <system:String x:Key="CONFIGURATION">CONFIGURATION</system:String>
+    <system:String x:Key="ROBOTCONTROLLER">CONTROL ROBOT Robot</system:String>
+
+    <!-- ConfigurationPage -->
+    <system:String x:Key="ROBOTCONFIGURATION">ROBOT MINDSTORM CONFIGURATION CONTROLLER</system:String>
+    <system:String x:Key="ARMMOVEMENT">ARM MOVEMENT</system:String>
+    <system:String x:Key="FEETMOVEMENT">FEET MOVEMENT</system:String>
+    <system:String x:Key="SPEECH">SPEECH</system:String>
+    <system:String x:Key="VISUAL">VISUAL</system:String>
+    <system:String x:Key="PROFILE">PROFILE</system:String>
+    <system:String x:Key="DETECTION">DETECTION</system:String>
+    <system:String x:Key="CONNECTION">CONNECTION</system:String>
+    <system:String x:Key="USB">USB</system:String>
+    <system:String x:Key="WIFI">WIFI</system:String>
+    <system:String x:Key="RightArm">Right Arm</system:String>
+    <system:String x:Key="LeftArm">Left Arm</system:String>
+    <system:String x:Key="BothArms">Both Arms</system:String>
+    <system:String x:Key="Move">Move</system:String>
+    <system:String x:Key="Up">Up</system:String> 
+    <system:String x:Key="Down">Down</system:String>
+    <system:String x:Key="Forward">Forward</system:String>
+    <system:String x:Key="Backward">Backward</system:String>
+    <system:String x:Key="RightFoot">Right Foot</system:String>
+    <system:String x:Key="LeftFoot">Left Foot</system:String>
+    <system:String x:Key="BothFeet">Both Feet</system:String>
+
+</ResourceDictionary>

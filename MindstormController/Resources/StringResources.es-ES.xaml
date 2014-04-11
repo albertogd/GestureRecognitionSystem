@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- MainWindow -->
+    <system:String x:Key="exit">Salir</system:String>
+    <system:String x:Key="logoff">Cerrar Sesión</system:String>
+    <system:String x:Key="createAccount">Crear una Cuenta</system:String>
+    <system:String x:Key="user">Usuario</system:String>
+    <system:String x:Key="password">Contraseña</system:String>
+    <system:String x:Key="login">Entrar</system:String>
+    <system:String x:Key="Language">Idioma</system:String>
+
+    <!-- HomePage -->
+    <system:String x:Key="CONFIGURATION">CONFIGURACIÓN</system:String>
+    <system:String x:Key="ROBOTCONTROLLER">TELEOPERAR ROBOT</system:String>
+
+    <!-- ConfigurationPage -->
+    <system:String x:Key="ROBOTCONFIGURATION">CONFIGURACIÓN DEL CONTROLADOR DEL ROBOT MINDSTORM</system:String>
+    <system:String x:Key="ARMMOVEMENT">MOVIMIENTO DE BRAZOS</system:String>
+    <system:String x:Key="FEETMOVEMENT">MOVIMIENTO DE PIES</system:String>
+    <system:String x:Key="SPEECH">VOZ</system:String>
+    <system:String x:Key="VISUAL">VISUAL</system:String>
+    <system:String x:Key="PROFILE">PERFIL</system:String>
+    <system:String x:Key="DETECTION">RECONOCIMIENTO</system:String>
+    <system:String x:Key="CONNECTION">CONEXIÓN</system:String>
+    <system:String x:Key="USB">USB</system:String>
+    <system:String x:Key="WIFI">WIFI</system:String>
+    <system:String x:Key="RightArm">Brazo Derecho</system:String>
+    <system:String x:Key="LeftArm">Brazo Izquierdo</system:String>
+    <system:String x:Key="BothArms">Ambos Brazos</system:String>
+    <system:String x:Key="Move">Mover</system:String>
+    <system:String x:Key="Up">Levantar</system:String>
+    <system:String x:Key="Down">Bajar</system:String>
+    <system:String x:Key="Forward">Adelantar</system:String>
+    <system:String x:Key="Backward">Atrasar</system:String>
+    <system:String x:Key="RightFoot">Pie Derecho</system:String>
+    <system:String x:Key="LeftFoot">Pie Izquierdo</system:String>
+    <system:String x:Key="BothFeet">Ambos Pies</system:String>
+
+</ResourceDictionary>
