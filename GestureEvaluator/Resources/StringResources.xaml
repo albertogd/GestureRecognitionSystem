@@ -1,0 +1,137 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- MainWindow -->
+    <system:String x:Key="exit">Exit</system:String>
+    <system:String x:Key="logoff">Logoff</system:String>
+    <system:String x:Key="createAccount">Create Account</system:String>
+    <system:String x:Key="user">User</system:String>
+    <system:String x:Key="password">Password</system:String>
+    <system:String x:Key="login">Login</system:String>
+    <system:String x:Key="Language">Language</system:String>
+
+    <!-- HomePage -->
+    <system:String x:Key="training">TRAINING</system:String>
+    <system:String x:Key="detection">DETECTION</system:String>
+
+    <!-- TrainingHomePage -->
+    <system:String x:Key="startTraining">START TRAINING</system:String>
+    <system:String x:Key="recordedGestures">RECORDED GESTURES</system:String>
+    <system:String x:Key="configureTraining">CONFIGURE TRAINING</system:String>
+
+    <!-- ProfileConfigurationPage -->
+    <system:String x:Key="PREPROCESS">PREPROCESS</system:String>
+    
+    <!-- DTWConfigurationPage -->
+    <system:String x:Key="dtwParameters">DTW ALGORITHM PARAMETERS</system:String>
+    <system:String x:Key="distanceType">Distance Type</system:String>
+    <system:String x:Key="boundaryConstraint">Boundary Constraint</system:String>
+    <system:String x:Key="boundaryConstraintStart">at Start (1,1)</system:String>
+    <system:String x:Key="boundaryConstraintEnd">at End (m,n)</system:String>
+    <system:String x:Key="Yes">Yes</system:String>
+    <system:String x:Key="No">No</system:String>
+    <system:String x:Key="slopeStepSizeDiagonal">Slope Step Size Diagonal</system:String>
+    <system:String x:Key="slopeStepSizeAside">Slope Step Size Aside</system:String>
+    <system:String x:Key="IkaturaParalelogram">(Ikatura Paralelogram)</system:String>
+    <system:String x:Key="sakoeChibaMaxShift">SakoeChiba Max Shift</system:String>
+    <system:String x:Key="SAVE">SAVE</system:String>
+    <system:String x:Key="CONFIGURATION">CONFIGURATION</system:String>
+    <system:String x:Key="DYNAMICTIMEWARPING">DYNAMIC TIME WARPING</system:String>
+
+    <!-- MovementConfigurationPage -->
+    <system:String x:Key="MOVEMENTDETECTION">MOVEMENT DETECTION</system:String>
+    <system:String x:Key="ENERGYTHRESHOLD">ENERGY THRESHOLD</system:String>
+    <system:String x:Key="TIMETHRESHOLD">TIME THRESHOLD</system:String>
+    <system:String x:Key="RestTo">Rest To</system:String>
+    <system:String x:Key="StartMoving">Start Moving</system:String>
+    <system:String x:Key="ToRest">To Rest</system:String>
+    <system:String x:Key="ToMoving">To Moving</system:String>
+    <system:String x:Key="MovingTo">Moving To</system:String>
+    <system:String x:Key="StopMoving">Stop Moving</system:String>
+    
+    <!-- PreprocessConfigurationPage -->
+    <system:String x:Key="centerSkeletonPoints">Center Skeleton Points</system:String>
+    <system:String x:Key="scaleSkeleton">Scale Skeleton (normalize)</system:String>
+    <system:String x:Key="PREPROCESSPARAMETERS">PREPROCESS PARAMETERS</system:String>
+    <system:String x:Key="skeletonAlwaysFront">Skeleton Always In Front (Method):</system:String>
+    <system:String x:Key="PREPROCESSSKELETONPOINTS">PREPROCESS SKELETON POINTS</system:String>
+
+    <!-- RecognitionConfigurationPage -->
+    <system:String x:Key="SELECTPROFILE">SELECT</system:String>
+    <system:String x:Key="PROFILES">CONFIGURATION PROFILE</system:String>
+    <system:String x:Key="MOVEMENTDETECTIONPROFILE">MOVEMENT DETECTION PROFILE</system:String>
+    <system:String x:Key="CONFIGURE">CONFIGURE</system:String>
+    <system:String x:Key="Name">Name</system:String>
+    <system:String x:Key="ADDPROFILE">ADD PROFILE</system:String>
+    <system:String x:Key="DELETEPROFILE">DELETE</system:String>
+    <system:String x:Key="DTW">DTW</system:String>
+
+    <!-- EvaluationConfigurationPage -->
+    <system:String x:Key="GESTUREDETECTION">GESTURE DETECTION</system:String>
+    <system:String x:Key="CONFIGUREGESTUREDETECTION">CONFIGURE GESTURE DETECTION</system:String>
+    <system:String x:Key="FREEMODE">FREE MODE</system:String>
+
+    <!-- FreeModeConfigurationPage -->
+    <system:String x:Key="FREEMODEVALUATION">FREE MODE EVALUATION</system:String>
+    <system:String x:Key="SELECTDETECTIONPROFILE">SELECT DETECTION PROFILE</system:String>
+    <system:String x:Key="automatic">Automatic</system:String>
+    <system:String x:Key="enablereplaygesture">(Allow to replay the gesture)</system:String>
+
+    <!-- RandomEvaluationConfigurationPage -->
+    <system:String x:Key="RANDOMGESTURESEVALUATION">RANDOM GESTURES MODE EVALUATION</system:String>
+    <system:String x:Key="EVALUATION">EVALUATION</system:String>
+    <system:String x:Key="GestureNumber">Number of Gestures</system:String>
+
+    <!-- CustomEvaluationConfigurationPage -->
+    <system:String x:Key="CONFIGURED">CONFIGURED</system:String>
+    <system:String x:Key="AVAILABLES">AVAILABLES</system:String>
+
+    <!-- CalculateEvaluationResultsPage -->
+    <system:String x:Key="CALCULATE">CALCULATE</system:String>
+    <system:String x:Key="SEELCTEVALUATION">SELECT EVALUATION</system:String>
+
+    <!-- CustomEvaluationPage -->
+    <system:String x:Key="RERECORD">RECORD AGAIN</system:String>
+    <system:String x:Key="NEXT">NEXT</system:String>
+    <system:String x:Key="REPLAY">REPLAY</system:String>
+
+    <!-- EvaluationPage -->
+    <system:String x:Key="CALCULATERESULTS">CALCULATE RESULTS</system:String>
+    <system:String x:Key="SEERESULTS">SEE RESULTS</system:String>
+    <system:String x:Key="OFEVALUATION">OF EVALUATION</system:String>
+    <system:String x:Key="STARTEVALUATION">START EVALUATION</system:String>
+    <system:String x:Key="RANDOMGESTURES">(RANDOM GESTURES)</system:String>
+    <system:String x:Key="CONFIGUREDGESTURES">(CONFIGURED GESTURES)</system:String>
+
+    <!-- RandomEvaluationPage -->
+    <!-- EvaluationHomePage -->
+
+    <!-- AddGesturesPage -->
+    <system:String x:Key="RECORD">RECORD</system:String>
+    <system:String x:Key="GestureName">Gesturename</system:String>
+
+    <!-- DeleteGesturesPage -->
+    <system:String x:Key="DELETE">DELETE</system:String>
+
+    <!-- PlayGesturePage -->
+    <system:String x:Key="gesture">Gesture</system:String>
+    <system:String x:Key="speed">Speed</system:String>
+    <system:String x:Key="play">Reproducir</system:String>
+
+    <!-- ConfigureTrainingPage -->
+    <system:String x:Key="Picture">Picture</system:String>
+    <system:String x:Key="TRAINING">TRAINING</system:String>
+    <system:String x:Key="ADDGESTURE">ADD GESTURE</system:String>
+    <system:String x:Key="NEWGESTURE">NEW GESTURE</system:String>
+    <system:String x:Key="DISABLEDGESTURES">DISABLED GESTURES</system:String>
+    <system:String x:Key="TRAININGESTURES">TRAINING GESTURES</system:String>
+    <system:String x:Key="DELETEGESTURE">DELETE GESTURE</system:String>
+    <system:String x:Key="AutomaticTraining">Automatic Training</system:String>
+
+    <!-- StartTrainingPage -->
+    <system:String x:Key="RESTARTKINECT">RESTART KINECT</system:String>
+    <system:String x:Key="FINISHTRAINING">FINISH TRAINING</system:String>
+    <system:String x:Key="FINISHEVALUATION">FINISH EVALUATION</system:String>
+
+</ResourceDictionary>
